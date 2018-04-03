@@ -1,6 +1,7 @@
 # Low Surface Brightness Universe
 
-## Review- Kelvin, LJMU 
+##Morning
+## Review- Lee Kelvin, LJMU 
 Zwicky discovered ‘Intergalactic matter’ in clusters, e.g Gregg and West 1998. Tarter+Silk 1974- possible explanation of dark matter?
 Oemler 1973- not as massive as needed
 
@@ -35,7 +36,7 @@ Repairing over-subtraction is possible- a "Multi-model flux threshold" to correc
 
 LSST will be able to push down to very faint depths, but haven't been designed for observations of the LSB- so might not be optimised. 
 
-# ICL in the Hubble Frontier Fields- Mirea Montes
+## ICL in the Hubble Frontier Fields- Mirea Montes
 
 Age and metallicity from SED fitting the ICL. Find a metallicity gradient in the ICL, ages between 2-6 Gyr younger than the BCGs. 
 
@@ -45,7 +46,7 @@ Evolution in fraction of ICL in cluster seems to because by passive evolution of
 
 Pillepich+2014,18 find a nice correlation between the slope of the stellar mass density profile and the halo mass. Compare size of clusters in X-rays and ICL. In Abell 370, the two match very well. The other clusters are smaller in ICL than X-rays. 
 
-# Probing the LSB peripheries of galaxies with resolved stars. Annette Ferguson, IFA, Edinburgh
+## Probing the LSB peripheries of galaxies with resolved stars. Annette Ferguson, IFA, Edinburgh
 
 Simulations tell us that lots of interesting substructures live in _very_ low surface brightness galaxy outskirts. We're talking 29-32 mag arcsec$^{-2}$. This is 0.1-0.01% of the sky background! These substructures reflect the precise details of a galaxy's accretion history. Stochastic nature of hierarchical assembly- each galaxy is unique!
 
@@ -64,7 +65,7 @@ Subaru HSC survey of M81. LSB tidal bridge between M82, M81 and NGC 3077. M82 an
 
 LSST will allow use of this technique out to 5Mpc, fainter than currently possible.
 
-# Next Generation Virgo Cluster Survey- Alessia Longobardi
+## Next Generation Virgo Cluster Survey- Alessia Longobardi
 
 Often LSB light profiles aren't fit well by a single Sersic. Use of bright stellar tracers (GCs, PNe) help us to get kinematics/information out to very large radii. 
 
@@ -79,7 +80,7 @@ There are two GC populations here- galaxy GCs and ICL GCs. These are observed to
 From Illustris simulations- The GCs only trace the potential galaxies which have been subject to stripping. _Not sure I get this?_
 
 
-# Activity around galaxies from ultra-deep imaging. Nushkia Chamba
+## Activity around galaxies from ultra-deep imaging. Nushkia Chamba
 
 $\Lambda$CDM predicts extremely faint streams, tails and shells. Can we quantify the amount of stellar mass in the outskirts of galaxies in Stripe 82 data? 
 
@@ -93,6 +94,66 @@ In a small subset of the whole survey:
 
 3 times less mass in streams for disturbed massive ellipticals compared to undisturbed massive ellipticals. 
 
+
+# Tuesday Afternoon
+
+## What do we know about ultra-diffuse galaxies? Javier Román 
+
+Coma UDGs in SDSS were unclassified due to their low surface brightness. Actually reported first in 1984 (Sandage + Binggeli). 
+
+Systematic detection has only been possible recently. E.g van Dokkum, Koda, Munoz, etc. Need to account for interlopers, but still far more prevalent than expected. They're found in all environments, with their properties varying with environment- round and red in clusters, blue and irregular in the field. 
+
+Is there any difference between UDGs and spheroidal dwarfs? In a size-magnitude diagram, they fall in the same place as other dwarfs. 
+
+### Formation
+There's no clear evolutionary path to explain their formation. Future deep surveys could/will reveal many more of them. What's the luminosity function? 
+
+Are they "failed" galaxies- i.e. intrinsically large things with not many stars? Or are they very large 'dwarf' objects, with inflated sizes?
+
+Expansion by SN feedback is a possible cause. They're produced naturally in simulations of dwarf galaxies (Rong+2017, Chan+2017). Their survival in clusters is also interesting. Their spatial distribution more resembles dwarfs than MW galaxies.
+
+### Stellar Populations
+Spectroscopy is hard, but possible. Beasley+2016 find an M/L of 3000! One nice technique is to look for the bright stellar tracers (GCs). The number of GCs and the halo mass can also be used (Peng+Lim 2016, Beasley+Truijillo2016m van dokkum 2016). van Dokkum seems to conclude UDGs are failed objects, most other people say inflated dwarfs. Also, try weak lensing. Very cool! 
+
+Population analysis- Kadowaki+2017,Gu+2017, Ferre-Mateu+2017 Ruiz-Lara+2018.   [Fe/H]~-1.0. Blue UDGs have also been found! 
+
+Alabi+2018- Recent infall UDGs have higher absolute line-of-sight-velocities and bluer optical colours. 
+
+##The Dragonfly Nearby Galaxy Survey- Alison Merritt
+
+Low SB wings of your PSF are hard work to remove! You need to worry about scattered light from stars (and dense galaxy centres) and how you deal with your PSF. This is an issue whenever a bright source is smaller than your PSF!
+
+###The Dragonfly telescope
+The Dragonfly telescope is made of a number of of-the-shelf Cannon lenses. Cannon have worked _really_ hard to reduce scattered light for commercial photographers, and their special lens coatings dramatically suppress spurious reflections. This allows Dragonfly to beat previous state of the art low-surface brightness telescopes.
+
+Started with a single lens. Then it steadily grew to 3, 8, 10 and finally 25 lenses. FOV of 5/5 square degrees, SDSS g+r filters, f/0.9(!). Each lens has its own lens, focusser, etc. 
+
+###The Survey
+
+We'll concentrate on 6 fields for now. Vast variety of galaxies! For some, the high surface brightness part dominates the halo, for others the high SB bit is a tiny part of the full image. This is quantified by seeing the excess mass in the best-fit disk+bulge model compared to the low-SB image. 
+
+It's difficult to compare these observations to simulations in a fair way! This is the next area of research. 
+
+## A library of synthetic stellar halos with the IllustrisTNG- Annalisa Pillepich
+
+IllustrisTNG is the next generation of Illustris. It's a cosmological simulation including MHD, of boxes 50 Mpc, 100 Mpc and 300 Mpc. Compared to Illustris there are new numerical improvements, it now has MHD and updated galaxy feedback models (e.g winds)
+
+Nice videos showing the differences between in-situ and ex-situ star-formation in the simulations. 
+
+A correlation holds between the 3D power-law slope of stellar density and the mass of the DM halo. 
+
+Two-phase formation. 90% of stellar mass within 30kpc has been accreted by smaller (MW-like) galaxies! Stellar mass accretion is the dominant method for making the ICL and building the BCG. Where does the BCG end and the ICL begin? It's arbitrary!
+
+## Sloshing in its cD halo: MUSE kinematics of the central galaxy NGC 3311. Magda Arnaboldi
+
+NGC 3311 is the BCG in the Hydra cluster. It has an extended and diffuse stellar halo and a rising $\sigma$ profile, from an unusually cold 175 km/s in the centre too 400 km/s in the outskirts (similar to the cluster $\sigma$).
+Difference in systemic velocity between centre and outskirts.
+
+Normally, h3 anti-correlates with the rotational velocity. That's not true here! H4 varies with radius, being 0 at the centre but positive at 2-4 kpc. ETG models almost always have h3>h4, but not the case here.
+
+Photometric decomposition requires a component which is offset from the centre. Make a model of the kinematics using a "finite" mixture model. It assumes the LOSVD is made up of a _finite_ number of gaussians (not a GMM). 
+
+NGC 3311 has a peculiar velocity with respect to the cluster barycentre. Not unexpected in $\Lambda$CDM. There is evidence from X-ray observations that the cluster isn't relaxed. Possible evidence for ongoing merging of two sub-clusters. Conclude that the cD envelope of NGC 3311 is dynamically associated with the cluster core. 
 
 
 
