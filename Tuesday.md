@@ -79,7 +79,22 @@ There are two GC populations here- galaxy GCs and ICL GCs. These are observed to
 From Illustris simulations- The GCs only trace the potential galaxies which have been subject to stripping. _Not sure I get this?_
 
 
-# Activity around galaxies from ultra-deep imaging Nushkia Chamba
+# Activity around galaxies from ultra-deep imaging. Nushkia Chamba
+
+$\Lambda$CDM predicts extremely faint streams, tails and shells. Can we quantify the amount of stellar mass in the outskirts of galaxies in Stripe 82 data? 
+
+Look for streams/disturbed galaxies. Fraction of disturbed ellipticals increases with mass, fraction of disturbed spirals doesn't. 
+
+Derive mass density maps. Use colours to get M/L and then use SB to get density. _How well do we trust these M/Ls?_ Need a detection algorithm to get outlines of galaxies/streams. "NoiseChisel" looks great!
+
+In a small subset of the whole survey:
+* Disturbed galaxies- 8$\pm$4% of mass in streams for spirals, 10$\pm$5 in 
+* Undisturbed cases- less than this, 3-4% in both cases.
+
+3 times less mass in streams for disturbed massive ellipticals compared to undisturbed massive ellipticals. 
+
+
+
 
 
 
