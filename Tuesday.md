@@ -155,6 +155,61 @@ Photometric decomposition requires a component which is offset from the centre. 
 
 NGC 3311 has a peculiar velocity with respect to the cluster barycentre. Not unexpected in $\Lambda$CDM. There is evidence from X-ray observations that the cluster isn't relaxed. Possible evidence for ongoing merging of two sub-clusters. Conclude that the cD envelope of NGC 3311 is dynamically associated with the cluster core. 
 
+## The LSB universe, with predictions from future surveys- Gareth Martin
+
+Our inability to study the majority of low-mass galaxies has lead to a biased view of the universe. ~80% of galaxies are LSB, with 30% of these being UDGs. 
+
+Horizon AGN simulation. Find a significant number of LSB galaxies in less extreme environments. LSB populations are the tail end of the R_eff -f_gass distribution. Evidence that LSB galaxies are not special objects. 
+
+Ram pressure stripping or large perturbations are needed to form the most extreme LSB galaxies (i.e. UDGs). The majority of LSB galaxies require stellar feedback.
+
+# Cosmology with the SKA
+
+## Weak gravitational lensing with the Square Kilometre Array- Mike Brown
+
+Current state of the art for weak lensing: KIDS and DES. Cosmology is becoming a systematics-limited science! Need just as exquisite control of systematics, otherwise your exquisite precision is wasted. 
+
+Major weak-lensing systematics:
+
+* Instrumental systematics
+* Intrinsic alignment which mimics your cosmic shear signal 
+* Photo-z errors
+* Colour gradients across galaxy images combined with a wavelength dependent PSF. 
+
+Cosmology with radio-optical shear cross-correlations- Camera, Harrison, Bonaldi+Brown (2017). Gets rid of your systematics nicely (when you get a detection...).
+
+Orientation of integrated polarised emission is unaffected by gravitational lensing. And radio polarisation traces a galaxy alignment (at least to an extent). So combining the two can be used to suppress systematics from intrinsic alignment. We can do a similar thing with HI gas kinematics, although I'm a bit more sceptical of this- misaligned gas?
+
+## Key questions
+
+* Intrinsic shape noise of radio galaxies?
+* Fraction of galaxies that will be visible (and whose shapes can be measured) in both optical and radio surveys. 
+* Radio surveys are catching up in number counts, but aren't there yet
+
+Future e-MERLIN upgrades/observations will help to measure intrinsic shapes of radio galaxies. 
+
+Radio weak lensing surveys will be competitive with optical ones. Much work is required with regards to shape measurements and understanding source populations, however. Cross correlations will be the key!
+
+##Radio Luminosity Functions- Josie Peters
+
+Radio sources are useful because you peer through the dust. Around half of starlight in the universe is scattered by dust. 
+
+Normally use a "1/V_max method". This involves finding the maximum observable redshift of a source and then turn this into a volume. This ignores the distribution of spectral indices among a population. 
+
+Assuming all sources have $\alpha=0.7$ will make you overestimate the luminosity of sources with $\alpha$ flatter than this. Fit with your luminosity, redshift and alpha information. Next step will use angular diameter too. 
+
+##Exploiting cross-beam information in hierarchical phases-array imaging- Mattieu Simeoni
+
+Hierarchical phases arrays combine many small antennae together into stations. You essentially create "virtual" dishes at each beam-forming station, linearly combining the antennae to compress the data and achieve higher spatial filtering. Furthermore, survey time is reduced compared to observing with usual dish arrays.
+
+The reduction pipeline is complicated! Mosaicing, unstable non-diagonal correlation matrices, etc... The Bluebild algorithm seems to deal with this okay! 
+
+##Magnetic Fields Forever- Franco Vazza  
+
+Where do observed magnetic fields come from? 
+
+
+
 
 
 
