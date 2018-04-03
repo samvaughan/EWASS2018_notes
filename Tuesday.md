@@ -206,7 +206,11 @@ The reduction pipeline is complicated! Mosaicing, unstable non-diagonal correlat
 
 ##Magnetic Fields Forever- Franco Vazza  
 
-Where do observed magnetic fields come from? Many scenarios can produce micro-Gauss fields in galaxy clusters. They provide very different predictions for cluster outskirts and filaments!
+Where do observed magnetic fields come from? Many scenarios can produce micro-Gauss fields in galaxy clusters. They provide very different predictions for cluster outskirts and filaments though! SKA-low should be able to tell the difference between the source of synchrotron emission from the shocked cosmic web- astrophysical or primordial?
+
+Interesting possibilities for cross-correlation between SKA and ATHENA (next-gen X-Ray satellite, in ~2028). 
+
+CosmoDEEP- a convolutional neural net for detection of extended radio sources. One 2000x2000 pixel image processed in 0.1 seconds, with 90% recovery of injected sources. 
 
 
 
