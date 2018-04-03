@@ -1,6 +1,5 @@
 # Low Surface Brightness Universe
 
-##Morning
 ## Review- Lee Kelvin, LJMU 
 Zwicky discovered ‘Intergalactic matter’ in clusters, e.g Gregg and West 1998. Tarter+Silk 1974- possible explanation of dark matter?
 Oemler 1973- not as massive as needed
@@ -94,8 +93,6 @@ In a small subset of the whole survey:
 
 3 times less mass in streams for disturbed massive ellipticals compared to undisturbed massive ellipticals. 
 
-
-# Tuesday Afternoon
 
 ## What do we know about ultra-diffuse galaxies? Javier Román 
 
