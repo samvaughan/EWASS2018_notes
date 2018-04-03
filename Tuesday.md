@@ -206,7 +206,7 @@ The reduction pipeline is complicated! Mosaicing, unstable non-diagonal correlat
 
 ##Magnetic Fields Forever- Franco Vazza  
 
-Where do observed magnetic fields come from? 
+Where do observed magnetic fields come from? Many scenarios can produce micro-Gauss fields in galaxy clusters. They provide very different predictions for cluster outskirts and filaments!
 
 
 
