@@ -77,3 +77,23 @@ I'll need to look up [AstroML](http://www.astroml.org/user_guide/index.html).
 Open source does not mean open development. Astropy is an example of open development, made for the community and by the community. It aims to foster an ecosystem of interoperable packages to avoid everyone writing their own code to do simple things. 
 
 It's optimised for python 3. There are affiliated packages which adhere to astropy coding, testing and documentation guidelines and add features not suitable/too specialised for the general astropy codebase. They use astropy wherever possible and share resources. A few examples are "ccdproc" and "astroplan", for planning astronomical observations. 
+
+#Final Session
+
+##MADCUBA and SLIM- Sergio Martin
+
+Software to analyse datacubes. Two key principles are efficiency and "easyness". Implemented as a plug in within the ImageJ framework. ImageJ is an open source image processing program, similar to DS9 I think. Mainly used in life sciences. 
+
+Handles a wide range of intensity units, etc- fits files are not standardised! Only available for ALMA and Herschel datasets though it seems? Great for many individual cubes (e.g example with 4x10^9 pixels across 100 cubes). Ability to run scripts is very nice. 
+
+SLIM is the Spectral Line Identification and LTE Modelling library for MADCUBA. 
+
+##M/L of Globular clusters- Hannah Dalgleish 
+
+GCs are ideal labs for kinematic studies, since they're relatively simple systems. M/L ratios are a proxy for the ratio of high to low mass stars, and GCs can help to constrain single stellar population models. 
+
+It was recently found that the predicted M/L is not obsvered- M/L decreases with metallicity (Djorgovski+97, Strader+09, Kimmig+15). Metal-rich GCs have M/L values less than half of that predicted by the models.
+
+WiFeS is an IFU on the ANU 2.3m telescope. WAGGS is the Wifes Atlas of Galactic Globular cluster Spectra (Usher+17). 84 MW GCs, and 30 MW satellites. 
+
+Extracted using PampelMuse to extract spectra from crowded fields. Find T and surface gravity from MIST isochrones for NGC 6121. Seem to get good masses and velocities, in agreement with other studies.
