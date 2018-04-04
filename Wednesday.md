@@ -59,3 +59,21 @@ It was developed such that each module performs one task, and only one task. One
 Berriman's law- the grumpier the user, the more helpful the feedback. Montage had to respond to user feedback that they couldn't write scripts with it and it was too slow. Furthermore, backwards compatibility was always at the forefront of development- scripts written in 2003-2004 will still run on the latest version of the code. 
 
 There's now a python version/package. 
+
+##A walk through the python ecosystem- Amruta Jaodand
+
+Python started in 1989 when Guido van Rossum started a "hobby" programming language in the week before Christmas. Check out [The Zen of Python](https://en.wikipedia.org/wiki/Zen_of_Python) and [Python4Astronomers](http://python4astronomers.github.io/). PyPI has 134,000 packages available for download
+
+Key packages:
+
+* IPython and Jupyter notebooks
+* Scipy
+* NumPy
+
+I'll need to look up [AstroML](http://www.astroml.org/user_guide/index.html).
+
+## The Astropy Project: A community Python library and ecosystem of astronomy package- Brigitta Sipocz
+
+Open source does not mean open development. Astropy is an example of open development, made for the community and by the community. It aims to foster an ecosystem of interoperable packages to avoid everyone writing their own code to do simple things. 
+
+It's optimised for python 3. There are affiliated packages which adhere to astropy coding, testing and documentation guidelines and add features not suitable/too specialised for the general astropy codebase. They use astropy wherever possible and share resources. A few examples are "ccdproc" and "astroplan", for planning astronomical observations. 
