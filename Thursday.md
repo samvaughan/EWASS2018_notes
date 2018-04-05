@@ -84,3 +84,66 @@ SKA can produce 72 million pulsar candidates per day! There are a few techniques
 
 See the [notebook!](https://zenodo.org/record/1212631)
 
+# Galaxies
+
+## High-Redshift Galaxies: Prospects with JWST and other future facilities- Andy Bunker
+
+Big questions:
+
+* What is the history of star formation? 
+* Can we find the first generation of stars?
+* How does the metal enhancement of gas and stars procees?
+* What drives "Cosmic Noon"?
+* The rest-frame UV luminosity function evolves, but it's still debated how. Fewer UV luminous galaxies at high redshift then z~4. 
+
+We've become very good at finding high redshift galaxies, using the Lyman-break technique or looking for optical dropouts. 
+
+The key problem is reionisation. What is the source of UV photons to do this? There don't seem to be enough quasars or high-redshift luminous galaxies to do this. Do dwarf galaxies do most of the work? 
+
+High-z galaxies have quite blue rest-frame colours- no dust? Top heavy IMF?
+
+Anything we can see with Hubble, we can take a spectrum of with JWST. 
+
+### NIRSPEC GTO observations
+
+NIRSPEC GTO target- for 450 hours, look at well studied Hubble Fields. We want Hubble data at optical wavelengths as well as other overlap with UV/Radio/sub-mm/X-ray/etc data. 150 hours will be taking spectra of the HUDF. Then spend 200 hours on medium exposures, 106 on wide exposures (300 arc minutes).
+
+One of the main science objectives is to get a catalogue of spectroscopic redshifts to make _true_ luminosity functions (rather than LFs based on photometric redshifts). 
+
+We'll also look at the Lyman Continuum escape fraction, which we don't know at the important redshifts (at the epoch of reionisation). This is possible to measure by comparing the Balmer lines compared with UV continuum, and the Balmer decrement and UV slope. This gets you an age and your dust mass, and then line ratios give you a handle on the escape fraction. 
+
+#### Which targets?
+
+Set pointings to capture most "bright" z>9 candidates- a new object class. Then High S/N sources at z>6 for line ratio work. Around 20% of sources will be a survey of sources at z>2 to build up a set of template spectra for photo-z work. 
+
+### Other surveys
+
+There's uncertainity in LFs, which may deviate from Schecter functions (Bowler+2014). The High-z luminosity function should be nailed down by WFIRST and EUCLID, which should find thousands of z>6 galaxies. WFIRST will do much larger areas of slitless spectroscopy than Hubble. E-ELT will out-do JWST at work between the sky-lines in the NIR, and SKA will get us tomography of neutral gas and its evolution. 
+
+## A synergy between GST, Spitzer, the VLT and ALMA to explore Reionisation- Nicholas Laporte
+
+When did the first galaxies appear? What are the main contributors to reionisation?
+
+Deep IRAC and Spitzer data are crucial for finding secure high-z candidates. 100% success rate in follow up of UV/IRAC/Spitzer combined samples!
+
+Interesting object from CANDELS- probably an AGN at z~7.5, found using emission line ratios. Perhaps another one at z~8.68? The contribution to reionisation from AGN may not be negligible. 
+
+[CII] line observed with Alma at ~9.1! This galaxy may have formed at z~15, found from SED fitting- I'm not sure I believe it!
+
+## Spatially resolved star-formation histories and the connection to galaxy physical properties- Kate Rowlands
+
+We see a galaxy bimodality in colour and morphology. We have to spatially resolve our galaxies to understand this, since galaxy centres can be very different to their outskirts! Outside-in vs inside-out formation. At low-masses, galaxies show no ordered gradients. 
+
+MANGA allows us to look at the spatially resolved star-formation histories of galaxies. Kate uses a PCA analysis technique around the D4000 break- same technique as Vivienne Wild's talk at Oxford a few weeks ago. 
+
+We can then label spaxels as coming from quiescent, star-forming, green valley, starburst, post-starburst or bad in some way.
+
+Histogram these as a function of radius for all galaxies, and split by mass. Star-burst and post-starburst spaxels are more prevalent in galaxy outskirts. Galaxies with higher concentration form fewer stars at all radii when matched by mass. Centres quenched by some process- AGN feedback? Morphological quenching? Asymmetric galaxies have far more star-burst spaxels than smooth ones. 
+
+
+
+
+
+
+
+
