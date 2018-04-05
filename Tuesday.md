@@ -116,16 +116,16 @@ Population analysis- Kadowaki+2017,Gu+2017, Ferre-Mateu+2017 Ruiz-Lara+2018.   [
 
 Alabi+2018- Recent infall UDGs have higher absolute line-of-sight-velocities and bluer optical colours. 
 
-##The Dragonfly Nearby Galaxy Survey- Alison Merritt
+## The Dragonfly Nearby Galaxy Survey- Alison Merritt
 
 Low SB wings of your PSF are hard work to remove! You need to worry about scattered light from stars (and dense galaxy centres) and how you deal with your PSF. This is an issue whenever a bright source is smaller than your PSF!
 
-###The Dragonfly telescope
+### The Dragonfly telescope
 The Dragonfly telescope is made of a number of of-the-shelf Cannon lenses. Cannon have worked _really_ hard to reduce scattered light for commercial photographers, and their special lens coatings dramatically suppress spurious reflections. This allows Dragonfly to beat previous state of the art low-surface brightness telescopes.
 
 Started with a single lens. Then it steadily grew to 3, 8, 10 and finally 25 lenses. FOV of 5/5 square degrees, SDSS g+r filters, f/0.9(!). Each lens has its own lens, focusser, etc. 
 
-###The Survey
+### The Survey
 
 We'll concentrate on 6 fields for now. Vast variety of galaxies! For some, the high surface brightness part dominates the halo, for others the high SB bit is a tiny part of the full image. This is quantified by seeing the excess mass in the best-fit disk+bulge model compared to the low-SB image. 
 
@@ -187,7 +187,7 @@ Future e-MERLIN upgrades/observations will help to measure intrinsic shapes of r
 
 Radio weak lensing surveys will be competitive with optical ones. Much work is required with regards to shape measurements and understanding source populations, however. Cross correlations will be the key!
 
-##Radio Luminosity Functions- Josie Peters
+## Radio Luminosity Functions- Josie Peters
 
 Radio sources are useful because you peer through the dust. Around half of starlight in the universe is scattered by dust. 
 
@@ -195,13 +195,13 @@ Normally use a "1/V_max method". This involves finding the maximum observable re
 
 Assuming all sources have $\alpha=0.7$ will make you overestimate the luminosity of sources with $\alpha$ flatter than this. Fit with your luminosity, redshift and alpha information. Next step will use angular diameter too. 
 
-##Exploiting cross-beam information in hierarchical phases-array imaging- Mattieu Simeoni
+## Exploiting cross-beam information in hierarchical phases-array imaging- Mattieu Simeoni
 
 Hierarchical phases arrays combine many small antennae together into stations. You essentially create "virtual" dishes at each beam-forming station, linearly combining the antennae to compress the data and achieve higher spatial filtering. Furthermore, survey time is reduced compared to observing with usual dish arrays.
 
 The reduction pipeline is complicated! Mosaicing, unstable non-diagonal correlation matrices, etc... The Bluebild algorithm seems to deal with this okay! 
 
-##Magnetic Fields Forever- Franco Vazza  
+## Magnetic Fields Forever- Franco Vazza  
 
 Where do observed magnetic fields come from? Many scenarios can produce micro-Gauss fields in galaxy clusters. They provide very different predictions for cluster outskirts and filaments though! SKA-low should be able to tell the difference between the source of synchrotron emission from the shocked cosmic web- astrophysical or primordial?
 
