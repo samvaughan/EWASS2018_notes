@@ -215,6 +215,3 @@ CosmoDEEP- a convolutional neural net for detection of extended radio sources. O
 
 
 
-
-
-
