@@ -1,6 +1,6 @@
-#Wednesday- Software in Astronomy
+# Wednesday- Software in Astronomy
 
-##Software Engineers as Partners in Astronomy SoftwareDevelopment -John Wenskovitch
+## Software Engineers as Partners in Astronomy SoftwareDevelopment -John Wenskovitch
 
 "Software is the most prevalent of all the instruments used in modern science." Institutions need individuals with a new professional designation- the "research software engineer". These individuals combine a professional attitude to the exercise of software engineering and a deep understanding of research topics. 
 
@@ -13,13 +13,13 @@ Tips:
 * Testing! Unit tests, regression tests, usability tests. Tests should be short- test one thing!
 * Documentation
 
-##Research Software Engineering- The DiRAC facility experience- Mark Wilkinson
+## Research Software Engineering- The DiRAC facility experience- Mark Wilkinson
 
 Research software engineers allow you to take your code from one HPC cluster (e.g a university cluster) and transition into a bigger cluster (e.g DiRAC). DiRAC has 114 Tb of RAM in its "memory intensive" Durham centre!
 
 Science requirements for DiRAC-3 require 10-40x increases in computing power to stay competitive. This can't be done by hardware alone! We can no longer rely on the "free lunch" from the Xeon era. You used to be able to write some code, wait for new hardware in two years time and make it run as quickly as needed. Not any more- getting the best from new hardware is _not simple_.
 
-##Research Programming- David Perez-Suarez
+## Research Programming- David Perez-Suarez
 
 Pretty much everyone uses software. Not many people are _taught_ to code, however.
 Software Carpentry- introductory two day courses. 
@@ -50,7 +50,7 @@ Test Driven Development is _not_ a testing process, it's a development process! 
 
 The fifth step of this process is "refactoring". This terrifies astronomers! You certainly have no confidence that you haven't accidentally broken something silently. 
 
-##Sustaining the Montage Image Mosaic Engine since 2002- Bruce Berriman
+## Sustaining the Montage Image Mosaic Engine since 2002- Bruce Berriman
 
 [Montage](http://montage.ipac.caltech.edu/) is a toolkit for assembling fits images into custom mosaics. It can make really nice images. It's a toolkit, not an application. It's command-line driven, easily built, written in C. No reliance on shared memory or third-party packages. 
 
@@ -60,7 +60,7 @@ Berriman's law- the grumpier the user, the more helpful the feedback. Montage ha
 
 There's now a python version/package. 
 
-##A walk through the python ecosystem- Amruta Jaodand
+## A walk through the python ecosystem- Amruta Jaodand
 
 Python started in 1989 when Guido van Rossum started a "hobby" programming language in the week before Christmas. Check out [The Zen of Python](https://en.wikipedia.org/wiki/Zen_of_Python) and [Python4Astronomers](http://python4astronomers.github.io/). PyPI has 134,000 packages available for download
 
@@ -78,9 +78,9 @@ Open source does not mean open development. Astropy is an example of open develo
 
 It's optimised for python 3. There are affiliated packages which adhere to astropy coding, testing and documentation guidelines and add features not suitable/too specialised for the general astropy codebase. They use astropy wherever possible and share resources. A few examples are "ccdproc" and "astroplan", for planning astronomical observations. 
 
-#Final Session
+# Final Session
 
-##MADCUBA and SLIM- Sergio Martin
+## MADCUBA and SLIM- Sergio Martin
 
 Software to analyse datacubes. Two key principles are efficiency and "easyness". Implemented as a plug in within the ImageJ framework. ImageJ is an open source image processing program, similar to DS9 I think. Mainly used in life sciences. 
 
@@ -88,7 +88,7 @@ Handles a wide range of intensity units, etc- fits files are not standardised! O
 
 SLIM is the Spectral Line Identification and LTE Modelling library for MADCUBA. 
 
-##M/L of Globular clusters- Hannah Dalgleish 
+## M/L of Globular clusters- Hannah Dalgleish 
 
 GCs are ideal labs for kinematic studies, since they're relatively simple systems. M/L ratios are a proxy for the ratio of high to low mass stars, and GCs can help to constrain single stellar population models. 
 
